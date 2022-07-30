@@ -1,0 +1,27 @@
+{
+  "statusTask": "in progress",
+  "allInProgressTasks": [
+    {
+      "priority": "important",
+      "priorityTasks": [
+        {
+          "id": 1233,
+          "task": [
+            {
+              "toDo": "bla_bla",
+              "startDateAndTime": "234.234.234.2",
+              "finishDateAndTime": "23.234.342.",
+              "author": [
+                {
+                  "name": "барбарискин",
+                  "surname": "бпармарысов",
+                  "patronymic": "пармарырин"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
