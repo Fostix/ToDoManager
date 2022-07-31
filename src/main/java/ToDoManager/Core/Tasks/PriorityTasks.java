@@ -1,6 +1,5 @@
 package ToDoManager.Core.Tasks;
 
-
 import java.util.List;
 
 public class PriorityTasks {
