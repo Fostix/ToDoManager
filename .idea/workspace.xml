@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="merge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/ListTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="need delete class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/EverythingTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Root.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ImportAndExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ImportAndExport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/ListTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/PriorityTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/StatusTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/BIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/BIOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +54,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/moreCodes/GitHub/Java/ToDoManager/src/main/java/ToDoManager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -97,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659188894189</updated>
       <workItem from="1659188895479" duration="10101000" />
-      <workItem from="1659265288967" duration="3760000" />
+      <workItem from="1659265288967" duration="6868000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1659246164222</created>
@@ -113,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659249376164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="need delete class">
+      <created>1659271839269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659271839269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add readme" />
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="need delete class" />
+    <option name="LAST_COMMIT_MESSAGE" value="need delete class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -142,6 +160,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

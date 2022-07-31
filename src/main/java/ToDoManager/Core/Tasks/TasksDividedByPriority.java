@@ -2,16 +2,16 @@ package ToDoManager.Core.Tasks;
 
 import java.util.List;
 
-public class PriorityTasks {
+public class TasksDividedByPriority {
     private int id;
     private List<Task> task;
 
-    public PriorityTasks(int id, List<Task> task) {
+    public TasksDividedByPriority(int id, List<Task> task) {
         this.id = id;
         this.task = task;
     }
 
-    public PriorityTasks() {
+    public TasksDividedByPriority() {
     }
 
     public int getId() {
@@ -33,7 +33,7 @@ public class PriorityTasks {
     @Override
     public String toString() {
         return "PriorityTasks{" +
-                "Id=" + id +
+                "id=" + id +
                 ", task=" + task +
                 '}';
     }

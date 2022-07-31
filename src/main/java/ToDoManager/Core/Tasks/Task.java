@@ -50,15 +50,6 @@ public class Task {
         this.author = author;
     }
 
-    public String getInfo() {
-        return "Task{" +
-                "toDo='" + toDo + '\'' +
-                ", startDateAndTime='" + startDateAndTime + '\'' +
-                ", finishDateAndTime='" + finishDateAndTime + '\'' +
-                ", author=" + author +
-                '}';
-    }
-
     @Override
     public String toString() {
         return "Task{" +

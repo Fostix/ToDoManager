@@ -1,7 +1,7 @@
 package ToDoManager.Core.Model;
 
 import ToDoManager.Core.JSON.*;
-import ToDoManager.Core.Tasks.StatusTasks;
+import ToDoManager.Core.Tasks.Root;
 
 public class Model {
     CheckFile checkStorageTasks = new CheckFile();
@@ -27,9 +27,7 @@ public class Model {
 
     public String readFile() {
         GsonParse parser = new GsonParse();
-        StatusTasks statusTasks = parser.parse();
-        System.out.println(parser.parse());
-        System.out.println("Status_tasks" + statusTasks.toString());
+        Root statusTasks = parser.parse();
         return statusTasks.toString();
     }
 }

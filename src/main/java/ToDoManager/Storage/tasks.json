@@ -1,12 +1,12 @@
 {
-  "allTasks": "everything tasks",
-  "ListTasks": [
+  "storageAllTasks": "storage all tasks json",
+  "everythingTasks": [
     {
       "statusTask": "in progress",
-      "allInProgressTasks": [
+      "tasksDividedByStatus": [
         {
           "priority": "important",
-          "priorityTasks": [
+          "tasksDividedByPriority": [
             {
               "id": 1233,
               "task": [
@@ -30,10 +30,10 @@
     },
     {
       "statusTask": "made",
-      "not need": [
+      "tasksDividedByStatus": [
         {
-          "priority": "middle",
-          "priorityTasks": [
+          "priority": "important",
+          "tasksDividedByPriority": [
             {
               "id": 1,
               "task": [

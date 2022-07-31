@@ -41,6 +41,7 @@ public class Author {
     public String getResult() {
         return surname + name + patronymic;
     }
+
     @Override
     public String toString() {
         return "Author{" +
