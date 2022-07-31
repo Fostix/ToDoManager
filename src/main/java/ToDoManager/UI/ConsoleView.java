@@ -39,7 +39,6 @@ public class ConsoleView implements View {
         Scanner scanner = new Scanner(System.in);
         String test = scanner.next();
         return test;
-        // дальше продумать как добавить важность и т.п!!
     }
 
     @Override

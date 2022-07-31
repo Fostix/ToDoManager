@@ -9,7 +9,6 @@ public class WriteInFile {
         try {
             FileWriter d = new FileWriter(file);
             d.write(text);
-            //d.append(text);
             d.close();
         } catch (IOException e) {
             throw new RuntimeException(e);

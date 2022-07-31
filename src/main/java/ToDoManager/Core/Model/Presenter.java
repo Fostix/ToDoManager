@@ -1,8 +1,5 @@
 package ToDoManager.Core.Model;
 
-import ToDoManager.Core.JSON.GsonParse;
-import ToDoManager.Core.Tasks.StatusTasks;
-
 public class Presenter {
     private Model model;
     private View view;

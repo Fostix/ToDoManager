@@ -7,7 +7,7 @@ public class Id {
     public Id() {
         Random r = new Random();
         this.number = r.nextInt(100);
-        getId(); // _________Проверить понадобится ли!_______
+        getId();
         System.out.println(getId());
     }
 
