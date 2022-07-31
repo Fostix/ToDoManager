@@ -7,4 +7,6 @@ public interface View {
     void goodCreateFileStorageTasks();
     void cannotCreateFileStorageTasks();
     String addTask();
+
+    void showTask(String text);
 }

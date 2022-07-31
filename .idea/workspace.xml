@@ -4,44 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db725452-20b1-4de1-87dc-a1b434e347ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/verify.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Client/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CheckFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CreateFileStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/FileWayStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ImportAndExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ReadFileStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/WriteInFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/PriorityTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/StatusTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/Example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/BIOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyMojo.java" afterDir="false" />
+    <list default="true" id="db725452-20b1-4de1-87dc-a1b434e347ae" name="Changes" comment="Read Work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659188894189</updated>
-      <workItem from="1659188895479" duration="10101000" />
+      <workItem from="1659188895479" duration="11690000" />
     </task>
+    <task id="LOCAL-00001" summary="Read Work">
+      <created>1659201544708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659201544708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Read Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read Work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

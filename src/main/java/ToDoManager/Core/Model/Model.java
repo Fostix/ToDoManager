@@ -25,10 +25,11 @@ public class Model {
         return addTask.addTask(FileWayStorage.WAY_TO_DO, text);
     }
 
-    public void readFile() {
+    public String readFile() {
         GsonParse parse = new GsonParse();
         StatusTasks statusTasks = parse.parse();
 
         System.out.println("Status_tasks" + statusTasks.toString());
+        return statusTasks.toString();
     }
 }

@@ -38,6 +38,9 @@ public class Author {
         this.patronymic = patronymic;
     }
 
+    public String getResult() {
+        return surname + name + patronymic;
+    }
     @Override
     public String toString() {
         return "Author{" +

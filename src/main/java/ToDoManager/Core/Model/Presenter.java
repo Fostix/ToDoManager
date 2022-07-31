@@ -41,6 +41,7 @@ public class Presenter {
     }
 
     public void readFile() {
-        model.readFile();
+        String d = model.readFile();
+        view.showTask(d);
     }
 }

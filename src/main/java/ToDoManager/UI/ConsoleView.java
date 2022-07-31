@@ -41,4 +41,9 @@ public class ConsoleView implements View {
         return test;
         // дальше продумать как добавить важность и т.п!!
     }
+
+    @Override
+    public void showTask(String text) {
+        System.out.println(text);
+    }
 }
