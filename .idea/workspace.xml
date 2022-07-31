@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db725452-20b1-4de1-87dc-a1b434e347ae" name="Changes" comment="Read Work">
+    <list default="true" id="db725452-20b1-4de1-87dc-a1b434e347ae" name="Changes" comment="first push in github">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
@@ -26,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/moreCodes/GitHub/Java/ToDoManager/src/main/java/ToDoManager",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/moreCodes/GitHub/Java/ToDoManager/src/main/java/ToDoManager&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ToDoManager.Core.Tasks" />
@@ -86,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659188894189</updated>
       <workItem from="1659188895479" duration="11690000" />
+      <workItem from="1659245557065" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Read Work">
       <created>1659201544708</created>
@@ -94,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659201544708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first push in github">
+      <created>1659245857874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659245857874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Read Work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read Work" />
+    <MESSAGE value="first push in github" />
+    <option name="LAST_COMMIT_MESSAGE" value="first push in github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
