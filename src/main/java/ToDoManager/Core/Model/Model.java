@@ -26,9 +26,9 @@ public class Model {
     }
 
     public String readFile() {
-        GsonParse parse = new GsonParse();
-        StatusTasks statusTasks = parse.parse();
-
+        GsonParse parser = new GsonParse();
+        StatusTasks statusTasks = parser.parse();
+        System.out.println(parser.parse());
         System.out.println("Status_tasks" + statusTasks.toString());
         return statusTasks.toString();
     }

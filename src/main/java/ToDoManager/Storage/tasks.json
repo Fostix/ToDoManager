@@ -1,21 +1,53 @@
 {
-  "statusTask": "in progress",
-  "allInProgressTasks": [
+  "allTasks": "everything tasks",
+  "ListTasks": [
     {
-      "priority": "important",
-      "priorityTasks": [
+      "statusTask": "in progress",
+      "allInProgressTasks": [
         {
-          "id": 1233,
-          "task": [
+          "priority": "important",
+          "priorityTasks": [
             {
-              "toDo": "bla_bla",
-              "startDateAndTime": "234.234.234.2",
-              "finishDateAndTime": "23.234.342.",
-              "author": [
+              "id": 1233,
+              "task": [
                 {
-                  "name": "барбарискин",
-                  "surname": "бпармарысов",
-                  "patronymic": "пармарырин"
+                  "toDo": "bla_bla",
+                  "startDateAndTime": "234.234.234.2",
+                  "finishDateAndTime": "23.234.342.",
+                  "author": [
+                    {
+                      "name": "Барбарискин",
+                      "surname": "Бпармарысов",
+                      "patronymic": "Пармарырин"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "made",
+      "not need": [
+        {
+          "priority": "middle",
+          "priorityTasks": [
+            {
+              "id": 1,
+              "task": [
+                {
+                  "toDo": "сделать то незная что",
+                  "startDateAndTime": "12.12.12",
+                  "finishDateAndTime": "13.12.12",
+                  "author": [
+                    {
+                      "name": "Пармизанов",
+                      "surname": "Нарми0занов",
+                      "patronymic": "Олег"
+                    }
+                  ]
                 }
               ]
             }
