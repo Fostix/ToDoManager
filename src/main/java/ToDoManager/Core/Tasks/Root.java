@@ -1,10 +1,11 @@
 package ToDoManager.Core.Tasks;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Root {
     private String storageAllTasks;
-    private List<EverythingTasks> everythingTasks;
+    private List<EverythingTasks> everythingTasks = new ArrayList<>();
 
     public Root(String storageAllTasks, List<EverythingTasks> everythingTasks) {
         this.storageAllTasks = storageAllTasks;
@@ -28,6 +29,10 @@ public class Root {
 
     public void setEverythingTasks(List<EverythingTasks> everythingTasks) {
         this.everythingTasks = everythingTasks;
+    }
+
+    public void append(EverythingTasks everythingTasks) {
+        this.everythingTasks.add(everythingTasks);
     }
 
     @Override

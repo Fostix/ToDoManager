@@ -37,8 +37,8 @@ public class ConsoleView implements View {
     public String addTask() {
         System.out.print("Введите задание: ");
         Scanner scanner = new Scanner(System.in);
-        String test = scanner.next();
-        return test;
+        String task = scanner.next();
+        return task;
     }
 
     @Override

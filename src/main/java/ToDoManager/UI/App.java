@@ -31,7 +31,7 @@ public class App {
                         presenter.importAndExport();
                         break;
                     case 3:
-                        presenter.addTask();
+                        presenter.createTask();
                         break;
                     default:
                         System.out.println("Смотри внимательнее куда нажимаешь 😡!!");

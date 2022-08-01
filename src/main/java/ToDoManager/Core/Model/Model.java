@@ -2,12 +2,13 @@ package ToDoManager.Core.Model;
 
 import ToDoManager.Core.JSON.*;
 import ToDoManager.Core.Tasks.Root;
+import com.google.gson.Gson;
 
 public class Model {
     CheckFile checkStorageTasks = new CheckFile();
     ImportAndExport importAndExport = new ImportAndExport();
     CreateFileStorage createFileStorage = new CreateFileStorage();
-    WriteInFile addTask = new WriteInFile();
+
 
     public boolean checkStorageTasks() {
         return checkStorageTasks.checkFile(FileWayStorage.WAY_TO_DO);
@@ -21,13 +22,17 @@ public class Model {
         return createFileStorage.createFileStorage(FileWayStorage.WAY_TO_DO);
     }
 
-    public boolean addTask(String text) {
-        return addTask.addTask(FileWayStorage.WAY_TO_DO, text);
+    /** Выводит список заданий*/
+    public Root readFile() {
+        return new GsonParse().parse();
     }
 
-    public String readFile() {
-        GsonParse parser = new GsonParse();
-        Root statusTasks = parser.parse();
-        return statusTasks.toString();
+    /** Записывает задание в Storage*/
+    public void createTask(String text) {
+        System.out.println(text);
+        GsonSerialize serialize = new GsonSerialize();
+        Root root = new Root();
+        System.out.println(serialize.serialize(root));
+        //serialize.serialize();
     }
 }

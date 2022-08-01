@@ -32,13 +32,12 @@ public class Presenter {
             view.cannotCreateFileStorageTasks();
     }
 
-    public void addTask() {
-        String text = view.addTask();
-        model.addTask(text);
+    public void createTask() {
+        model.createTask(view.addTask());
+
     }
 
     public void readFile() {
-        String d = model.readFile();
-        view.showTask(d);
+        view.showTask(model.readFile().toString());
     }
 }
