@@ -7,9 +7,16 @@ public class Root {
     private String storageAllTasks;
     private List<EverythingTasks> everythingTasks = new ArrayList<>();
 
+    /** Корень
+     * @param storageAllTasks Начало
+     * @param everythingTasks Список всех заданий*/
     public Root(String storageAllTasks, List<EverythingTasks> everythingTasks) {
-        this.storageAllTasks = storageAllTasks;
+        this.storageAllTasks = storageAllTasks;// TODO: 01/08/2022 Подумать как изменить 
         this.everythingTasks = everythingTasks;
+    }
+
+    public Root(String storageAllTasks) {
+        this.storageAllTasks = storageAllTasks;
     }
 
     public Root() {

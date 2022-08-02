@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="rename several methods and fields">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonSerialize.java" afterDir="false" />
+    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="need create function append task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/EverythingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/EverythingTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Root.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,8 @@
       <workItem from="1659265288967" duration="9940000" />
       <workItem from="1659329822810" duration="2432000" />
       <workItem from="1659343558870" duration="12914000" />
+      <workItem from="1659370891695" duration="5441000" />
+      <workItem from="1659421175757" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1659246164222</created>
@@ -134,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659276741012</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="need create function append task">
+      <created>1659370939665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659370939665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,20 +166,21 @@
     <MESSAGE value="merge" />
     <MESSAGE value="need delete class" />
     <MESSAGE value="rename several methods and fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename several methods and fields" />
+    <MESSAGE value="need create function append task" />
+    <option name="LAST_COMMIT_MESSAGE" value="need create function append task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

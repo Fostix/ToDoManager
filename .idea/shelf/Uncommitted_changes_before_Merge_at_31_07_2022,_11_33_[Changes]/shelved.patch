@@ -1,0 +1,21 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,12 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="db725452-20b1-4de1-87dc-a1b434e347ae" name="Changes" comment="first push in github">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
