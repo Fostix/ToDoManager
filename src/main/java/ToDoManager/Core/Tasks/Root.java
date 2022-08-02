@@ -3,16 +3,16 @@ package ToDoManager.Core.Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Root {
+public class Root<E extends EverythingTasks>{
     private String storageAllTasks;
-    private List<EverythingTasks> everythingTasks = new ArrayList<>();
+    private List<E> everythingTasks = new ArrayList<>();
 
     /** Корень
      * @param storageAllTasks Начало
-     * @param everythingTasks Список всех заданий*/
-    public Root(String storageAllTasks, List<EverythingTasks> everythingTasks) {
+     * @param e Список всех заданий*/
+    public Root(String storageAllTasks, List<E> e) {
         this.storageAllTasks = storageAllTasks;// TODO: 01/08/2022 Подумать как изменить 
-        this.everythingTasks = everythingTasks;
+        this.everythingTasks = e;
     }
 
     public Root(String storageAllTasks) {
@@ -30,16 +30,16 @@ public class Root {
         this.storageAllTasks = storageAllTasks;
     }
 
-    public List<EverythingTasks> getEverythingTasks() {
+    public List<E> getEverythingTasks() {
         return everythingTasks;
     }
 
-    public void setEverythingTasks(List<EverythingTasks> everythingTasks) {
-        this.everythingTasks = everythingTasks;
+    public void setEverythingTasks(List<E> e) {
+        this.everythingTasks = e;
     }
 
-    public void append(EverythingTasks everythingTasks) {
-        this.everythingTasks.add(everythingTasks);
+    public void append(E e) {
+        this.everythingTasks.add(e);
     }
 
     @Override

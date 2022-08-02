@@ -3,16 +3,16 @@ package ToDoManager.Core.Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EverythingTasks {
+public class EverythingTasks<T extends TasksDividedByStatus> {
     private String statusTask;
-    private List<TasksDividedByStatus> tasksDividedByStatus = new ArrayList<>();
+    private List<T> tasksDividedByStatus = new ArrayList<>();
 
     /** Конструктор заданий
      * @param statusTask Статус задания (в процессе, завершён или удалён).
-     * @param tasksDividedByStatus Конкретный список от выбранного статуса.*/
-    public EverythingTasks(String statusTask, List<TasksDividedByStatus> tasksDividedByStatus) {
+     * @param t Конкретный список от выбранного статуса.*/
+    public EverythingTasks(String statusTask, List<T> t) {
         this.statusTask = statusTask;
-        this.tasksDividedByStatus = tasksDividedByStatus;
+        this.tasksDividedByStatus = t;
     }
 
     public EverythingTasks(String statusTask) {
@@ -26,7 +26,7 @@ public class EverythingTasks {
         return statusTask;
     }
 
-    public List<TasksDividedByStatus> tasksDividedByStatus() {
+    public List<T> tasksDividedByStatus() {
         return tasksDividedByStatus;
     }
 
@@ -34,12 +34,12 @@ public class EverythingTasks {
         this.statusTask = status;
     }
 
-    public void setPriority(List<TasksDividedByStatus> priority) {
+    public void setPriority(List<T> priority) {
         this.tasksDividedByStatus = tasksDividedByStatus;
     }
 
-    public void append(TasksDividedByStatus tasksDividedByStatus) {// TODO: 02/08/2022 Ограничеть выбор!!
-        this.tasksDividedByStatus.add(tasksDividedByStatus);
+    public void append(T t) {// TODO: 02/08/2022 Ограничить выбор!!
+        this.tasksDividedByStatus.add(t);
     }
 
     @Override

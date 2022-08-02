@@ -1,20 +1,86 @@
 {
-  "finishRemoveMade": {
-    "priority": {
-      "dateAddAndDateFinish": {
-        "dateAndTimeFinish": {
-          "": {}
-        }
-      }
-    }
-  }
-}
-
-{
   "storageAllTasks": "everythingTasks",
   "everythingTasks": [
     {
-      "tasksDividedByStatus": []
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": [
+                {
+                  "toDo": "впавап",
+                  "startDateAndTime": "выывпаавапыа",
+                  "finishDateAndTime": "ваывапвапва",
+                  "author": [
+                    {
+                      "surname": "sd",
+                      "name": "df",
+                      "patronymic": "fd"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": [
+                {
+                  "toDo": "впавап",
+                  "startDateAndTime": "выывпаавапыа",
+                  "finishDateAndTime": "ваывапвапва",
+                  "author": [
+                    {
+                      "surname": "sd",
+                      "name": "df",
+                      "patronymic": "fd"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": [
+                {
+                  "toDo": "впавап",
+                  "startDateAndTime": "выывпаавапыа",
+                  "finishDateAndTime": "ваывапвапва",
+                  "author": [
+                    {
+                      "surname": "sd",
+                      "name": "df",
+                      "patronymic": "fd"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

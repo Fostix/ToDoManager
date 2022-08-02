@@ -3,17 +3,17 @@ package ToDoManager.Core.Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TasksDividedByStatus {
+public class TasksDividedByStatus<T extends TasksDividedByPriority> {
     private String priority;
-    private List<TasksDividedByPriority> tasksDividedByPriority = new ArrayList<>();
+    private List<T> tasksDividedByPriority = new ArrayList<>();
 
     // TODO: 01/08/2022 Так кажется я запутался?!?!?
     /** Задания распределённые по приоритетам.
      * @param priority Приоритеты.
-     * @param priorityTasks Список заданий распределённые по приоритетам.*/
-    public TasksDividedByStatus(String priority, List<TasksDividedByPriority> priorityTasks) {
+     * @param t Список заданий распределённые по приоритетам.*/
+    public TasksDividedByStatus(String priority, List<T> t) {
         this.priority = priority;// TODO: 01/08/2022 Приоритеты изменить! 
-        this.tasksDividedByPriority = priorityTasks;
+        this.tasksDividedByPriority = t;
     }
 
     public TasksDividedByStatus(String priority) {
@@ -27,7 +27,7 @@ public class TasksDividedByStatus {
         return priority;
     }
 
-    public List<TasksDividedByPriority> getTasksDividedByPriority() {
+    public List<T> getTasksDividedByPriority() {
         return tasksDividedByPriority;
     }
 
@@ -35,12 +35,12 @@ public class TasksDividedByStatus {
         this.priority = priority;
     }
 
-    public void setTasksDividedByPriority(List<TasksDividedByPriority> tasksDividedByPriority) {
-        this.tasksDividedByPriority = tasksDividedByPriority;
+    public void setTasksDividedByPriority(List<T> t) {
+        this.tasksDividedByPriority = t;
     }
 
-    public void append(TasksDividedByPriority tasksDividedByPriority) {
-        this.tasksDividedByPriority.add(tasksDividedByPriority);
+    public void append(T t) {
+        this.tasksDividedByPriority.add(t);
     }
 
     @Override

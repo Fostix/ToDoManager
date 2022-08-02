@@ -2,10 +2,8 @@ package ToDoManager.Core.Model;
 
 import ToDoManager.Core.JSON.*;
 import ToDoManager.Core.Tasks.*;
-import com.google.gson.Gson;
 
-import java.util.List;
-import java.util.Scanner;
+import java.util.Random;
 
 public class Model {
     CheckFile checkStorageTasks = new CheckFile();
@@ -35,53 +33,16 @@ public class Model {
         Root testRoot = readFile();
         System.out.println(text);
         GsonSerialize serialize = new GsonSerialize();
-        Scanner scanner = new Scanner(System.in);
-        String testText = scanner.next();// TODO: 01/08/2022 Попробовать обобщит что бы не приводить к конкретному типу!
-        //Root root = new Root();
-        //root.append(new EverythingTasks());
-        //serialize.serialize(root);
-        //root.append((List<EverythingTasks>) new EverythingTasks("Делаю", (List<TasksDividedByStatus>) new TasksDividedByStatus("Важно ну прям очень", (List<TasksDividedByPriority>) new TasksDividedByPriority(12, (List<Task>) new Task("А нука сделаю кое что", "сегодня", "завтра", (List<Author>)new Author("Бармалей", "Пармалеев", "Ыкаевкачин"))))));
-//        serialize.serialize(new Root("everythingTasks", (List<EverythingTasks>)
-//                new EverythingTasks("Делаю",
-//                        (List<TasksDividedByStatus>)
-//                                new TasksDividedByStatus(
-//                                        "Важно ну прям очень",
-//                                        (List<TasksDividedByPriority>)
-//                                                new TasksDividedByPriority
-//                                                        (12, (List<Task>)
-//                                                                new Task
-//                                                                        ("А нука сделаю кое что",
-//                                                                                "сегодня",
-//                                                                                "завтра",
-//                                                                                (List<Author>)new Author(
-//                                                                                        "Бармалей",
-//                                                                                        "Пармалеев",
-//                                                                                        "Ыкаевкачин"
-//                                                                                )))))));
-        //Author author = new Author("Бармалей", "Пармалеев", "Ыкаевкачин");
-        EverythingTasks everythingTasks = new EverythingTasks("Мурчаль");
-        TasksDividedByStatus tasksDividedByStatus = new TasksDividedByStatus("Важно");
-        TasksDividedByPriority tasksDividedByPriority = new TasksDividedByPriority(1);
+        EverythingTasks<TasksDividedByStatus> everythingTasks = new EverythingTasks("Мурчаль");
+        TasksDividedByStatus<TasksDividedByPriority> tasksDividedByStatus = new TasksDividedByStatus("Важно");
+        TasksDividedByPriority<Task> tasksDividedByPriority = new TasksDividedByPriority(new Random().nextInt(10000));
+        Task<Author> task = new Task("впавап", "выывпаавапыа", "ваывапвапва");
         Author author = new Author("sd", "df", "fd");
-        Task task = new Task("ва", "выа", "ва");
-
-
-//        testRoot.append(
-//        everythingTasks.append(
-//                tasksDividedByStatus.append(
-//                tasksDividedByPriority.append(
-//                        task.append(
-//                        author
-//                )))));
-
         task.append(author);
         tasksDividedByPriority.append(task);
         tasksDividedByStatus.append(tasksDividedByPriority);
         everythingTasks.append(tasksDividedByStatus);
         testRoot.append(everythingTasks);
-
         serialize.serialize(testRoot);
-        //System.out.println(serialize.serialize(root));
-        //serialize.serialize();
     }
 }

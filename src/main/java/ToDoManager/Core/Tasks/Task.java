@@ -3,21 +3,22 @@ package ToDoManager.Core.Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task {
+public class Task<A extends Author> {
     private String toDo;
     private String startDateAndTime;
     private String finishDateAndTime;
-    private List<Author> author = new ArrayList<>();
+    private List<A> author = new ArrayList<>();
 
     /** Добавить задание
      * @param toDo Какое задание?
      * @param startDateAndTime Время добавления
-     * @param finishDateAndTime Время окончания*/
-    public Task(String toDo, String startDateAndTime, String finishDateAndTime, List<Author> author) {
+     * @param finishDateAndTime Время окончания
+     * @param a Автор*/
+    public Task(String toDo, String startDateAndTime, String finishDateAndTime, List<A> a) {
         this.toDo = toDo;
         this.startDateAndTime = startDateAndTime;
         this.finishDateAndTime = finishDateAndTime;
-        this.author = author;
+        this.author = a;
     }
 
     public Task(String toDo, String startDateAndTime, String finishDateAndTime) {
@@ -41,7 +42,7 @@ public class Task {
         return finishDateAndTime;
     }
 
-    public List<Author> getAuthor() {
+    public List<A> getAuthor() {
         return author;
     }
 
@@ -57,12 +58,12 @@ public class Task {
         this.finishDateAndTime = finishDateAndTime;
     }
 
-    public void setAuthor(List<Author> author) {
-        this.author = author;
+    public void setAuthor(List<A> a) {
+        this.author = a;
     }
 
-    public void append(Author author) {
-        this.author.add(author);
+    public void append(A a) {
+        this.author.add(a);
     }
 
     @Override

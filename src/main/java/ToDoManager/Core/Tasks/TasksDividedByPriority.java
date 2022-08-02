@@ -3,43 +3,31 @@ package ToDoManager.Core.Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TasksDividedByPriority {
+public class TasksDividedByPriority<T extends Task> {
     private int id;
-    private List<Task> task = new ArrayList<>();
+    private List<T> task = new ArrayList<>();
 
     /** Задания поделенные по приоритетам
-     * @param id идентификатор
-     * @param task конкретное задание по идентификатору*/
-    public TasksDividedByPriority(int id, List<Task> task) {
+     * @param t конкретное задание по идентификатору*/
+    public TasksDividedByPriority(int id, List<T> t) {
         this.id = id;// TODO: 01/08/2022 Сделать не ручной ввод!
-        this.task = task;
+        this.task = t;
     }
 
     public TasksDividedByPriority(int id) {
         this.id = id;
     }
 
-    public TasksDividedByPriority() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public List<Task> getTask() {
+    public List<T> getTask() {
         return task;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setTask(List<T> t) {
+        this.task = t;
     }
 
-    public void setTask(List<Task> task) {
-        this.task = task;
-    }
-
-    public void append(Task task) {
-        this.task.add(task);
+    public void append(T t) {
+        this.task.add(t);
     }
 
     @Override
