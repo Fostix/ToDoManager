@@ -1,3 +1,119 @@
 {
-  "everythingTasks": []
+  "storageAllTasks": "everythingTasks",
+  "everythingTasks": [
+    {
+      "tasksDividedByStatus": []
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "statusTask": "Мурчаль",
+      "tasksDividedByStatus": [
+        {
+          "priority": "Важно",
+          "tasksDividedByPriority": [
+            {
+              "id": 1,
+              "task": [
+                {
+                  "toDo": "ва",
+                  "startDateAndTime": "выа",
+                  "finishDateAndTime": "ва",
+                  "author": [
+                    {
+                      "surname": "sd",
+                      "name": "df",
+                      "patronymic": "fd"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

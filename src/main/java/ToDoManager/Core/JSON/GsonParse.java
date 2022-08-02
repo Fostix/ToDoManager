@@ -14,6 +14,7 @@ public class GsonParse{
             Root statusTasks = gson.fromJson(reader, Root.class);
             return statusTasks;
         } catch (Exception e) {
+            System.out.println("Error ->" + e.toString());
             throw new RuntimeException(e);
         }
     }

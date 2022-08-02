@@ -10,3 +10,11 @@
   }
 }
 
+{
+  "storageAllTasks": "everythingTasks",
+  "everythingTasks": [
+    {
+      "tasksDividedByStatus": []
+    }
+  ]
+}
