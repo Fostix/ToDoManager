@@ -4,20 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="good">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Id.java" afterDir="false" />
+    <list default="true" id="c8ec33e3-406c-43c5-8d8f-43a740612f8e" name="Changes" comment="need make more">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022,_11_33_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022,_11_33_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022,_11_33_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022,_11_33_[Changes]1/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022__11_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_07_2022__11_33__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/simple-it/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/simple-it/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/simple-it/verify.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/simple-it/verify.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Client/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Client/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CheckFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CheckFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CreateFileStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/CreateFileStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/FileWayStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/FileWayStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonParse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/GsonSerialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ImportAndExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/ImportAndExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/WriteInFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/JSON/WriteInFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Model/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/EverythingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/EverythingTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Id.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Root.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByPriority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Tasks/TasksDividedByStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Core/Users/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/Example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/saveExample.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Storage/validatorExample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/Task" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/Task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/BIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/BIOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToDoManager/UI/OS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyMojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyMojo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +81,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/moreCodes/GitHub/Java/ToDoManager/src/main/java/ToDoManager&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/albert/ToDoManager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ToDoManager.Core.Tasks" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ToDoManager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ToDoManager/Storage" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +148,11 @@
       <workItem from="1659343558870" duration="12914000" />
       <workItem from="1659370891695" duration="5441000" />
       <workItem from="1659421175757" duration="4422000" />
-      <workItem from="1659445134214" duration="3901000" />
+      <workItem from="1659445134214" duration="4094000" />
+      <workItem from="1659451118899" duration="1225000" />
+      <workItem from="1659537317396" duration="2887000" />
+      <workItem from="1659601704046" duration="1201000" />
+      <workItem from="1659971088373" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1659246164222</created>
@@ -149,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659370939665</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="need make more">
+      <created>1659449242840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659449242840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +219,18 @@
     <MESSAGE value="need delete class" />
     <MESSAGE value="rename several methods and fields" />
     <MESSAGE value="need create function append task" />
-    <option name="LAST_COMMIT_MESSAGE" value="need create function append task" />
+    <MESSAGE value="need make more" />
+    <option name="LAST_COMMIT_MESSAGE" value="need make more" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ToDoManager/UI/App.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
